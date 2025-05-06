@@ -7,19 +7,27 @@ Este repositório foi criado como um teste para utilização no Cursor.IA.
 1. **Criação do repositório**
    - O repositório público chamado `TESTE` foi criado no GitHub.
 
-2. **Criação do arquivo de código**
-   - O arquivo `calculadora.py` foi criado com uma calculadora simples em Python, capaz de realizar as quatro operações aritméticas básicas: soma, subtração, multiplicação e divisão.
+2. **Criação dos arquivos de código**
+   - `calculadora.py`: Calculadora simples em Python para operações básicas (soma, subtração, multiplicação e divisão) via terminal.
+   - `calculadora_gui.py`: Interface gráfica (GUI) para a calculadora, feita com Tkinter.
 
-3. **Como executar o app**
+3. **Como executar o app no terminal**
    - Certifique-se de ter o Python instalado em sua máquina.
-   - Faça o download ou clone este repositório.
    - No terminal, navegue até a pasta do repositório e execute:
      ```bash
      python calculadora.py
      ```
    - Siga as instruções exibidas no terminal para utilizar a calculadora.
 
-4. **Sobre o app**
+4. **Como executar a interface gráfica (GUI)**
+   - Certifique-se de ter o Python instalado (Tkinter já vem por padrão na maioria das instalações).
+   - No terminal, navegue até a pasta do repositório e execute:
+     ```bash
+     python calculadora_gui.py
+     ```
+   - Uma janela será aberta permitindo o uso da calculadora de forma visual.
+
+5. **Sobre o app**
    - O app solicita ao usuário que escolha a operação desejada e informe dois números.
    - O resultado da operação é exibido na tela.
    - Em caso de divisão por zero, uma mensagem de erro é exibida.
